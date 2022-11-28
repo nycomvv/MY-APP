@@ -8,7 +8,7 @@ export default function home() {
   <div className="container-home2"> 
   MI PRIMERA PAGINA USANDO <span>"React App"</span><br />
     <img src={logoHome} alt="logo"></img>
-    <b>By Marcelo Vasquez</b>
+    <b>Curso de FrontEnd 2022 USACH <br /> Marcelo Vasquez</b>
   </div>
   )
 }
