@@ -1,0 +1,21 @@
+.container-home2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    gap: 10px;
+}
+
+span {
+    color: green;
+    font-weight: 900;
+}
+
+b {
+    color: rgb(155, 41, 41);
+    font-weight: 600;
+    font-size: 12px;
+}

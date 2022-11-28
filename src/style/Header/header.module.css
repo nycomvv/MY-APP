@@ -1,0 +1,9 @@
+.containerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(178, 231, 178);
+    padding: 15px;
+    margin-bottom: 10px;
+}
