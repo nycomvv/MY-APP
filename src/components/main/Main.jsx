@@ -14,8 +14,8 @@ export default function Main() {
     <BrowserRouter>
      <Header />
       <Routes>
-        <Route path="/contacto" element={<Contact />} />
         <Route path="/" element={<Home />} />
+        <Route path="/contacto" element={<Contact />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>

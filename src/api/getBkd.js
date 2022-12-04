@@ -1,4 +1,6 @@
-async function getBkd () {
+import axios from "axios";
+
+async function getBkd() {
     
     const id = "characters"
 try {
