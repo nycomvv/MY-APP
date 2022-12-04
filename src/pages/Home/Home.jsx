@@ -8,7 +8,6 @@ export default function home() {
   return (
   <div className="container-home2"> 
   Marcelo HOME
-  <Content />
   MI PRIMERA PAGINA USANDO <span>"React App"</span><br />
     <img src={logoHome} alt="logo"></img>
     <b>Curso FrontEnd USACH 2022<br /> Marcelo Vásquez</b>
