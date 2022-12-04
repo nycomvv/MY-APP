@@ -8,8 +8,6 @@ export default function Contact() {
     <div className="container-home2">
       MARCELO CONTENT
        <Content />
-      <img src={logoContacto} alt="logo"></img>
-      <b>Curso FrontEnd USACH 2022<br /> Marcelo Vásquez</b>
     </div>
   )
 }
