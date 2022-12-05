@@ -1,12 +1,11 @@
 import React from 'react'
-
+import "../../style/Content/Content.css"
 import Content from "../../components/Content/Content"
-import logoContacto from "../../assets/logoContacto.png";
+
 
 export default function Contact() {
   return (
-    <div className="container-home2">
-      MARCELO CONTENT
+    <div>
        <Content />
     </div>
   )
