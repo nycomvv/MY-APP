@@ -3,8 +3,8 @@ import "../../style/404/Notfound.css"
 
 export default function Notfound() {
   return (
-    <div className="container-home">
-      404 - Not Found
+    <div className="container-notfound">
+      404 - Not Found ...!
     </div>
   )
 }

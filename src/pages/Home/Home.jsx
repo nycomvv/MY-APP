@@ -1,11 +1,32 @@
-import React from 'react'
+import React from "react";
 
-import "../../style/Home/Home.css"
+import logoBkd from "../../assets/logoBkd.jpg";
+import "../../style/Home/Home.css";
 
 export default function home() {
   return (
-  <div className="container-home2"> 
-  Marcelo HOME
-  </div>
-  )
+    <div>
+      <div className="title">Breaking Bad <br /> (DRAMA)</div>
+      <div className="text">
+          <p>Tras cumplir 50 años, Walter White (Bryan Cranston), un profesor
+          de química de un instituto de Albuquerque, Nuevo México, se entera 
+          de que tiene un cáncer de pulmón incurable. Casado con Skyler (Anna Gunn)
+          y con un hijo discapacitado (RJ Mitte), la brutal noticia lo impulsa a dar 
+          un drástico cambio a su vida: decide, con la ayuda de un antiguo alumno
+          (Aaron Paul), fabricar anfetaminas y ponerlas a la venta. Lo que pretende
+          es liberar a su familia de problemas económicos cuando se produzca el fatal 
+          desenlace.</p>
+      </div>
+      <div className="container-center">
+      Temporadas : 5<br />
+      Directores : Vince Gilligan, Michael Slovis, Colin Bucksey<br />
+      Último Episodio : 29 de septiembre de 2013 <br />
+      Primer Episodio : 20 de enero de 2008 <br />
+      Cantidad de episodios : 62 <br />
+      Tema musical : Breaking Bad Theme <br />
+      <img  width="35%"src={logoBkd}></img>
+      </div>
+      <div className="footer">Curso FrontEnd USACH 2022 - Marcelo Vásquez</div>
+    </div>
+  );
 }

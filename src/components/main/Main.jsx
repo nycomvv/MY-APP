@@ -9,13 +9,14 @@ import Header from "../header/Header";
 
 
 
+
 export default function Main() {
   return (
     <BrowserRouter>
      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contacto" element={<Contact />} />
+        <Route path="/Contacto" element={<Contact />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>

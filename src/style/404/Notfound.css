@@ -1,7 +1,8 @@
-.container-home {
+.container-notfound {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 900;
-    color: red;
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgb(201, 11, 11);
 }

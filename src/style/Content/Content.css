@@ -1,22 +1,23 @@
-.container {
-  margin: 2px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-    background-color: rgb(207, 203, 212);
+.container { 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    background-color: rgb(165, 135, 202);
 }
 
 .card {
-    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    margin: 10px;
+    width: 180px;
     border: 2px solid rgb(34, 3, 101);
     border-radius: 20px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    box-shadow: 7px 13px 37px rgba(132, 60, 60, 0.7);
+    box-shadow: 7px 13px 37px rgba(143, 100, 100, 0.7);
 }

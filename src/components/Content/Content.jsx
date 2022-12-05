@@ -9,23 +9,20 @@ export default function Content() {
     async function showData() {
       const resp = await getBkd();
       setData(resp.data);
-      console.log(resp);
+      console.log(resp.data);
       return resp;
     }
     showData();
   }, []);
 
   return (
-    <div>
+    <div className="container">
       {data.map((actor) => (
-        <div className="container">
-          <div className="card">
-            {actor.name}
-            <img width="40%" src={actor.img} alt="" srcset="" />
-          </div>
+        <div className="card">
+          {actor.name}
+          <img width="30%" src={actor.img} alt="" srcset="" />
         </div>
       ))}
-      ;
     </div>
   );
 }

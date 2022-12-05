@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    background-color: rgb(178, 231, 178);
-    padding: 12px;
+    gap: 50px;
+    color: rgb(4, 4, 153);
+    background-color: rgb(161, 202, 161);
+    padding: 15px;
 }
