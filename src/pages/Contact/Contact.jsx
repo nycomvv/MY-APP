@@ -5,8 +5,8 @@ import Content from "../../components/Content/Content"
 export default function Contact() {
   return (
     <div>
-      <div className="title">BREAKING BAD <br /></div>
-      <div><p>* REPARTO *</p></div>
+      <div className="title">Most Popular TV Shows <br /></div>
+      <div><p>Series de TV Más Populares</p></div>
        <Content />
     </div>
   )

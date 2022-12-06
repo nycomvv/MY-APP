@@ -5,10 +5,9 @@ body {
 }
 .container { 
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     justify-content: center;
-    background-color: rgb(165, 135, 202);
 }
 
 .card {
@@ -16,9 +15,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    font-size: 10px;
+    font-weight:bolder;
     margin: 10px;
     width: 180px;
-    border: 2px solid rgb(34, 3, 101);
+    border: 0px solid rgb(34, 3, 101);
     border-radius: 20px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
