@@ -8,8 +8,8 @@ export default function Content() {
   useEffect(() => {
     async function showData() {
       const resp = await getBkd();
-      setData(resp.data);
-      console.log(resp.data);
+      setData(resp.tv_shows);
+      console.log(resp);
       return resp;
     }
     showData();
@@ -18,10 +18,7 @@ export default function Content() {
   return (
     <div className="container">
       {data.map((actor) => (
-        <div className="card">
-          {actor.name}
-          <img width="30%" src={actor.img} alt="" srcset="" />
-        </div>
+        <div className="card">{actor.name}</div>
       ))}
     </div>
   );
