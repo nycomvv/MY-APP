@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div>
       <div className="title">Most Popular TV Shows <br /></div>
-      <div><p>Series de TV Más Populares</p></div>
+      <div><p>20 Titulos de Series de TV Más Populares</p></div>
        <Content />
     </div>
   )

@@ -48,20 +48,20 @@ img {
 }
 .footer {
     margin-top: 100px;
-    background-color: rgb(45, 60, 45);
+    background-color: rgb(31, 81, 31);
     font-size: 10px;
     padding: 10px;
     color: white;
-    font-weight: normal;
+    font-weight:bolder;
     text-align: center;
-    text-decoration:overline underline
+  
 }
 
 p {
     font-size: 12px;
     font-weight: bolder;
     text-align: center;
-    width: 15%;
+    width: 30%;
     padding: 10px;
     margin-bottom: 10px;
     background-color: rgba(132, 60, 60, 0.7);
@@ -71,4 +71,11 @@ p {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     box-shadow: 7px 13px 37px rgba(132, 60, 60, 0.7);
+}
+
+b{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 14px;
+    color: blue;
 }

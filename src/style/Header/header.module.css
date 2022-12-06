@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    color: rgb(4, 4, 153);
-    background-color: rgb(154, 207, 154);
+    color: blue;
+    background-color: rgb(31, 81, 31);
     padding: 15px;
 }
