@@ -19,7 +19,7 @@ export default function Content() {
     <div className="container">
       {data.map((serie) => (
         <div className="card">
-          {serie.name} <br /><b>({serie.network})</b>
+         <b> {serie.name} <br />({serie.network})</b>
         <img width="35%" src={serie.image_thumbnail_path} alt="" srcset="" />
          <br /> {serie.start_date} <br /> {serie.status}
         </div>
