@@ -16,10 +16,10 @@ export default function home() {
       <div className="title">Most Popular TV Shows</div>
 
       <div className="text">
-        Titulos de muchas series de TV de "acción", "misterio", "drama", "suspenso", "thriller",
+        Algunos titulos de muchas series de TV de "acción", "misterio", "drama", "suspenso", "thriller",
         "fantasia". Calificados como los mas populares emitidos por TV de suscripción a partir
         del año 2005. Opcion <b>"Content"</b> entrega información más detallada de al menos 20 
-        de ellos ( Nombre, Fecha de Inicio y la cadena de TV asociada)
+        de ellos ( Nombre, Fecha de Inicio, cadena de TV y estado actual)
       </div>
       <div>
       <div className="container-center">
